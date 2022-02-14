@@ -9,7 +9,7 @@ npm i -D typescript @babel/core @babel/preset-env @babel/preset-typescript @type
 ```
 
 4. 프로젝트 폴더 바로 아래에 ESLint 설정 파일 추가
-   
+
 ```js
 // .eslintrc.js
 module.exports = {
@@ -19,14 +19,14 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
   ],
-  plugins: ['prettier', '@typescript-eslint'],
+  plugins: ["prettier", "@typescript-eslint"],
   rules: {
-    'prettier/prettier': [
-      'error',
+    "prettier/prettier": [
+      "error",
       {
         singleQuote: true,
         semi: true,
@@ -34,12 +34,12 @@ module.exports = {
         tabWidth: 2,
         printWidth: 80,
         bracketSpacing: true,
-        arrowParens: 'avoid',
+        arrowParens: "avoid",
       },
     ],
   },
   parserOptions: {
-    parser: '@typescript-eslint/parser',
+    parser: "@typescript-eslint/parser",
   },
 };
 ```
