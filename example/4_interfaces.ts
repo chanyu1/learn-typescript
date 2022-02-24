@@ -5,7 +5,7 @@ interface User {
 }
 
 // 변수에 사용하는 경우
-const seho: User = { name: 'hi', age: 100 };
+const seho: User = { name: "hi", age: 100 };
 
 // 함수의 매개변수에 사용하는 경우
 function getUser(user: User) {
@@ -38,4 +38,4 @@ interface Person {
 interface Developer extends Person {
   language: string;
 }
-const joo: Developer = { name: 'joo', age: 20, language: 'ts' };
+const joo: Developer = { name: "joo", age: 20, language: "ts" };
