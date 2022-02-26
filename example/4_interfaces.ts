@@ -23,11 +23,11 @@ getUser(seho);
 // };
 
 // 배열의 인덱싱에 사용하는 경우
-// interface StringArray {
-//   [index: number]: string;
-// }
-// let arr: StringArray;
-// arr[0] = 'hi';
+interface StringArray {
+  [index: number]: string;
+}
+let arr: StringArray;
+arr[0] = "hi";
 // arr[1] = 10;
 
 // 인터페이스 확장
