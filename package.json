@@ -1,5 +1,5 @@
 {
-  "name": "study-ts",
+  "name": "learn-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,15 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chanyu1/study-TS.git"
+    "url": "git+https://github.com/chanyu1/learn-typescript.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chanyu1/study-TS/issues"
+    "url": "https://github.com/chanyu1/learn-typescript/issues"
   },
-  "homepage": "https://github.com/chanyu1/study-TS#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  }
+  "homepage": "https://github.com/chanyu1/learn-typescript#readme"
 }
