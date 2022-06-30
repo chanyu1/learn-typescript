@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chanyu1/learn-typescript/issues"
   },
-  "homepage": "https://github.com/chanyu1/learn-typescript#readme"
+  "homepage": "https://github.com/chanyu1/learn-typescript#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
